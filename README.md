@@ -44,6 +44,18 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
+## Local infrastructure
+
+This project includes a `docker-compose.yml` file for running a PostgreSQL
+database locally. Start the services with:
+
+```bash
+$ docker-compose up -d
+```
+
+The database is exposed on `localhost:5432` with the default `postgres`
+username and password.
+
 ## Run tests
 
 ```bash
